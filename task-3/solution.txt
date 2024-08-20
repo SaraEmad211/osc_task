@@ -1,40 +1,28 @@
-
 mkdir project_files
-
 mkdir project_files/reports project_files/logs project_files/data
-
-touch project_files/reports/report1.md project_files/reports/report2.md
-
+touch project_files/reports/report1.md project_files/reports/report2.md 
 touch project_files/logs/system.log project_files/logs/error.log project_files/logs/file1.pdf project_files/logs/file2.pdf 
-
-touch project_files/data/data.csv project_files/data/info.txt   
-
+touch project_files/data/data.csv project_files/data/info.txt 
 nano project_files/reports/report1.md
 nano project_files/logs/system.log 
 nano project_files/data/data.csv  
-
 tar -czvf logs_backup.tar project_files/logs/
-
 mv project_files/logs/logs_backup.tar /home/osc/project_files
-
 tar -xzvf /home/osc/project_files/logs_backup.tar -C /home/osc/project_files/logs/ 
-
 find . -name "*.md"
 find /home/osc/project_files -name "*.log"
 find /home/osc/project_files -name "file1.pdf" 
 find /home/osc/project_files -iname "*.pdf" 
 find /home/osc/project_files/logs -type f 
-
-
-ln -s project_files/data/data.csv link_data.csv
-echo "sara" > project_files/data/link_data.csv 
+ln -s /home/osc/project_files/data/data.csv /home/osc/project_files/data/link_data.csv
+echo "sara" >> project_files/data/link_data.csv 
 cat project_files/data/data.csv
 unlink project_files/data/link_data.csv
 touch project_files/summary.txt
 echo "Summary Start" > project_files/summary.txt
 date >>project_files/summary.txt 
-wc -l project_files/summary.txt | tee project_files/summary.txt 
+wc -l project_files/summary.txt | tee -a project_files/summary.txt 
 wc -w project_files/reports/report1.md 
-wc -c project_files/logs/system.log | tee project_files/summary.txt
-ls | wc -l | tee  project_files/summary.txt
+wc -c project_files/logs/system.log | tee  -a project_files/summary.txt
+ls project_files | wc -l | tee  -a project_files/summary.txt
 cat project_files/summary.txt
