@@ -1,0 +1,2 @@
+cut -d "," -f2 info.csv |grep -Eo '[A-Za-z0-9._%+-]+@[A-Za-z0-9._%+-]+\.[A-Za-z0-9._%+-]{2,}'|sort |uniq >emails.txt
+ps -e --sort=cmd -o pid,cmd > processes.txt

@@ -1,0 +1,185 @@
+    PID CMD
+    850 (sd-pam)
+    716 /sbin/agetty -o -p -- \u --noclear - linux
+      1 /sbin/init splash
+    946 /usr/bin/VBoxClient --clipboard
+    947 /usr/bin/VBoxClient --clipboard
+    969 /usr/bin/VBoxClient --draganddrop
+    972 /usr/bin/VBoxClient --draganddrop
+    961 /usr/bin/VBoxClient --seamless
+    962 /usr/bin/VBoxClient --seamless
+   1050 /usr/bin/VBoxClient --vmsvga
+   1051 /usr/bin/VBoxClient --vmsvga
+    999 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+    872 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    519 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    871 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1023 /usr/bin/gpg-agent --supervised
+    866 /usr/bin/pipewire
+    867 /usr/bin/pipewire -c filter-chain.conf
+    870 /usr/bin/pipewire-pulse
+   1118 /usr/bin/python3 /usr/bin/blueman-applet
+   1185 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   1535 /usr/bin/qterminal
+    982 /usr/bin/ssh-agent x-session-manager
+    868 /usr/bin/wireplumber
+   1546 /usr/bin/zsh
+  21556 /usr/lib/firefox-esr/firefox-esr
+  21633 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 26070 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {e22c63ad-d9a7-4051-a5c3-bd5e822c163e} 21556 true tab
+  21695 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 30381 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {4e1dfc55-f9da-4a70-ae81-d59bb781f7f8} 21556 true tab
+  21733 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 30381 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {372d9ec5-326b-45fe-be8a-991b3bee1938} 21556 true tab
+  21875 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 28585 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {b0fac398-7648-4201-bf02-395759d5b509} 21556 true tab
+  21878 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isForBrowser -prefsLen 28585 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {e89ab635-3c70-45ff-8b82-635aa7a229ed} 21556 true tab
+  21931 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isForBrowser -prefsLen 28585 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {44828735-b0ca-453e-9098-baa48e02b8e6} 21556 true tab
+  22270 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 28585 -prefMapSize 236608 -jsInitLen 240916 -parentBuildID 20240703222632 -appDir /usr/lib/firefox-esr/browser {91deec00-a641-4537-9b96-3d765352b984} 21556 true tab
+  21609 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20240703222632 -prefsLen 25929 -prefMapSize 236608 -appDir /usr/lib/firefox-esr/browser {22db70ff-828d-419c-bdb4-b0bd3c086ef8} 21556 true socket
+    526 /usr/lib/polkit-1/polkitd --no-debug
+    849 /usr/lib/systemd/systemd --user
+    333 /usr/lib/systemd/systemd-journald
+    527 /usr/lib/systemd/systemd-logind
+    378 /usr/lib/systemd/systemd-udevd
+   1127 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+   1102 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Action Buttons Log out, lock or other system actions
+   1086 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph CPU Graph Graphical representation of the CPU load
+   1088 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Generic Monitor Show output of a command.
+   1090 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+   1089 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+   1087 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+   1082 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Whisker Menu Show a menu to easily access installed applications
+   1091 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+    715 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    517 /usr/libexec/accounts-daemon
+    992 /usr/libexec/at-spi-bus-launcher
+   1010 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1357 /usr/libexec/bluetooth/obexd
+   1154 /usr/libexec/colord
+   1200 /usr/libexec/dconf-service
+   1176 /usr/libexec/geoclue-2.0/demos/agent
+   1274 /usr/libexec/gvfs-afc-volume-monitor
+   1306 /usr/libexec/gvfs-goa-volume-monitor
+   1324 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1290 /usr/libexec/gvfs-mtp-volume-monitor
+   1249 /usr/libexec/gvfs-udisks2-volume-monitor
+   1029 /usr/libexec/gvfsd
+   1035 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   1353 /usr/libexec/gvfsd-metadata
+   1343 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+   1156 /usr/libexec/polkit-mate-authentication-agent-1
+    769 /usr/libexec/rtkit-daemon
+   1258 /usr/libexec/udisks2/udisksd
+   1212 /usr/libexec/upowerd
+   3051 /usr/libexec/xdg-desktop-portal
+   3072 /usr/libexec/xdg-desktop-portal-gtk
+   3056 /usr/libexec/xdg-document-portal
+   3060 /usr/libexec/xdg-permission-store
+    618 /usr/sbin/ModemManager
+    554 /usr/sbin/NetworkManager --no-daemon
+    637 /usr/sbin/VBoxService
+    598 /usr/sbin/cron -f
+    503 /usr/sbin/haveged --Foreground --verbose=1
+    703 /usr/sbin/lightdm
+  21815 /usr/sbin/pcscd --foreground --auto-exit
+   1072 Thunar --daemon
+     20 [cpuhp/0]
+     21 [cpuhp/1]
+     27 [cpuhp/2]
+     19 [idle_inject/0]
+     22 [idle_inject/1]
+     28 [idle_inject/2]
+     51 [irq/9-acpi]
+    272 [jbd2/sda1-8]
+     40 [kauditd]
+     45 [kcompactd0]
+     37 [kdevtmpfs]
+     47 [khugepaged]
+     41 [khungtaskd]
+     46 [ksmd]
+     16 [ksoftirqd/0]
+     24 [ksoftirqd/1]
+     30 [ksoftirqd/2]
+     58 [kswapd0]
+      2 [kthreadd]
+      8 [kworker/0:0-events]
+     10 [kworker/0:0H-events_highpri]
+     56 [kworker/0:1H-kblockd]
+  27703 [kworker/0:1]
+  21263 [kworker/0:3-cgroup_destroy]
+  28688 [kworker/1:0-events]
+     26 [kworker/1:0H-events_highpri]
+  25724 [kworker/1:1-events_power_efficient]
+     72 [kworker/1:1H-kblockd]
+     69 [kworker/1:2-events]
+  24060 [kworker/2:1-events]
+    175 [kworker/2:1H-kblockd]
+  18086 [kworker/2:2-events]
+    224 [kworker/2:2H-kblockd]
+     68 [kworker/R-acpi_]
+    200 [kworker/R-ata_s]
+     50 [kworker/R-blkcg]
+     89 [kworker/R-crypt]
+     55 [kworker/R-devfr]
+     54 [kworker/R-edac-]
+    273 [kworker/R-ext4-]
+     38 [kworker/R-inet_]
+     71 [kworker/R-ipv6_]
+     49 [kworker/R-kbloc]
+     48 [kworker/R-kinte]
+     77 [kworker/R-kstrp]
+     66 [kworker/R-kthro]
+     70 [kworker/R-mld]
+     12 [kworker/R-mm_pe]
+      7 [kworker/R-netns]
+      4 [kworker/R-rcu_g]
+      5 [kworker/R-rcu_p]
+    569 [kworker/R-rpcio]
+    204 [kworker/R-scsi_]
+    206 [kworker/R-scsi_]
+      6 [kworker/R-slub_]
+     53 [kworker/R-tpm_d]
+    217 [kworker/R-ttm]
+     44 [kworker/R-write]
+    570 [kworker/R-xprti]
+     81 [kworker/u10:0]
+     82 [kworker/u11:0]
+     83 [kworker/u12:0]
+     84 [kworker/u13:0]
+     11 [kworker/u6:0-ext4-rsv-conversion]
+    376 [kworker/u6:1-ext4-rsv-conversion]
+   4252 [kworker/u7:0-events_unbound]
+     43 [kworker/u7:2-writeback]
+    207 [kworker/u7:3-flush-8:0]
+     57 [kworker/u8:1-events_unbound]
+    484 [kworker/u8:3-events_unbound]
+     35 [kworker/u9:0-events_unbound]
+    186 [kworker/u9:1-flush-8:0]
+    475 [kworker/u9:3-events_unbound]
+     18 [migration/0]
+     23 [migration/1]
+     29 [migration/2]
+     42 [oom_reaper]
+      3 [pool_workqueue_release]
+    381 [psimon]
+    742 [psimon]
+     17 [rcu_preempt]
+     13 [rcu_tasks_kthread]
+     14 [rcu_tasks_rude_kthread]
+     15 [rcu_tasks_trace_kthread]
+    203 [scsi_eh_0]
+    205 [scsi_eh_1]
+   3067 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   1134 light-locker
+    841 lightdm --session-child 13 24
+  23167 man ps
+  23918 man ps
+   1164 nm-applet
+  23175 pager
+  23926 pager
+  28997 ps -e --sort=cmd -o pid,cmd
+   1128 xcape -e Super_L Control_L Escape
+   1067 xfce4-panel
+   1145 xfce4-power-manager
+    891 xfce4-session
+   1078 xfdesktop
+   1063 xfsettingsd
+   1025 xfwm4
+   1119 xiccd
